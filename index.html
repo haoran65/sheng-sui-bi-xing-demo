@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<base href="/sheng-sui-bi-xing-demo/">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#faf8f2">
+<meta name="description" content="声随笔行，一个配乐随写作节奏变化的写作空间。认识音乐、文字与故事之间的联系，开始自己的创作。">
+<title>声随笔行 · 你的故事，由你自己演奏</title>
+<link rel="icon" href="data:,"><link rel="stylesheet" href="/sheng-sui-bi-xing-demo/showcase.css">
+<script src="/sheng-sui-bi-xing-demo/conductor-model.js" defer></script><script src="/sheng-sui-bi-xing-demo/audio-resources.js" defer></script>
+<script src="/sheng-sui-bi-xing-demo/music-model/performance-plan-inline.js" defer></script><script src="/sheng-sui-bi-xing-demo/semantic-adaptation.js" defer></script><script src="/sheng-sui-bi-xing-demo/orchestra-score-v3.js" defer></script>
+<script src="/sheng-sui-bi-xing-demo/score-staff-visualizer.js" defer></script><script src="/sheng-sui-bi-xing-demo/instrument-guide.js" defer></script>
+<script src="/sheng-sui-bi-xing-demo/record-transport.js" defer></script><script src="/sheng-sui-bi-xing-demo/showcase-content.js" defer></script><script src="/sheng-sui-bi-xing-demo/showcase-presentation.js" defer></script><script src="/sheng-sui-bi-xing-demo/instrument-audition.js" defer></script><script src="/sheng-sui-bi-xing-demo/showcase-experiences.js" defer></script><script src="/sheng-sui-bi-xing-demo/showcase.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到产品介绍</a>
+<header class="site-header wrap"><a class="brand" href="/sheng-sui-bi-xing-demo/" aria-label="声随笔行首页">声随笔行<span class="brand-mark" aria-hidden="true"></span></a>
+<nav aria-label="主要导航"><a href="#demo">观看演示</a><a href="#rhythm">产品能力</a><a class="app-entry" href="/sheng-sui-bi-xing-demo/app/?demo=1">进入写作空间 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a></nav></header>
+<main id="main">
+<section class="hero wrap" aria-labelledby="hero-title">
+<div class="hero-copy"><h1 id="hero-title">你的故事，<br>由你自己演奏</h1><p class="lead">让旋律随文字缓缓流动。<br>从第一句，到每一次停驻。</p>
+<div class="actions"><a class="button primary" href="#demo">观看 60 秒演示 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a><a class="text-link app-entry" href="/sheng-sui-bi-xing-demo/app/?demo=1">进入写作空间 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a></div></div>
+<figure class="hero-scene" aria-label="写作空间的精简功能预览">
+<div class="hero-paper"><span class="paper-title">山居秋暝</span><p>空山新雨后，天气晚来秋。<br>明月松间照，清泉石上流。<span class="paper-caret" aria-hidden="true"></span></p>
+<div class="mini-staff" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><span class="note-a"></span><span class="note-b"></span><span class="note-c"></span></div></div>
+<img class="hero-record" src="/sheng-sui-bi-xing-demo/assets/showcase/rebuild/vinyl-record-v1.png" alt="写作空间中的黑胶唱片" width="1024" height="1024" fetchpriority="high"></figure>
+<p class="hero-footnote small-note">纸面、谱面与唱片 · 写作空间功能预览</p>
+<a class="hero-scroll" href="#demo">听见一段故事的开始 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v15m-6-6 6 6 6-6"/></svg></a>
+</section>
+
+<section id="demo" class="demo-section section" aria-labelledby="demo-title">
+<div class="wrap"><div class="section-heading"><h2 id="demo-title">看一段故事，<br>听音乐回应。</h2><p>不用先学会操作。看文字落下，听乐团展开，<br class="desktop-only">也感受停笔时，音乐留下的呼吸。</p></div>
+<div class="demo-workspace" id="demo-workspace" data-state="idle">
+<div class="demo-toolbar"><span class="demo-document">雨停之后 <span>示例写作</span></span><span id="demo-mode">点击后开启声音</span></div>
+<div class="demo-scene"><div class="demo-writing"><h3>故事，从这里开始。</h3><p id="demo-text"><span id="demo-words">点击下方播放，跟随一段文字的诞生。</span><span class="writing-caret" aria-hidden="true"></span></p></div>
+<div class="demo-record-wrap"><div id="demo-record" class="record-rotor"><img src="/sheng-sui-bi-xing-demo/assets/showcase/rebuild/vinyl-record-v1.png" alt="原创序曲黑胶唱片" width="1024" height="1024"><img class="record-label-cover" src="/sheng-sui-bi-xing-demo/assets/showcase/rebuild/cover-original-v1.png" alt="小说写作交响序曲封面" width="400" height="400"><i class="record-spindle" aria-hidden="true"></i></div><button id="demo-record-play" class="record-preview-button" type="button" aria-label="播放唱片预览" aria-pressed="false" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path class="record-play-icon" d="m9 5 10 7-10 7Z"/><path class="record-pause-icon" d="M9 5v14M15 5v14"/></svg><span id="demo-record-status">播放唱片</span></button><div class="record-caption">小说写作交响序曲<span>本项目原创</span></div></div></div>
+<div id="demo-score" class="score-rail" role="img" aria-label="演示配乐的动态谱面"><div class="score-rail-lines"></div><div class="score-note-layer"></div><div class="score-endpoint"><i></i><i></i></div><span id="score-empty">落针之后，音符会来到这里。</span></div>
+<div class="demo-feedback"><span id="demo-phase" role="status" aria-live="polite">准备好，听一个故事。</span><span id="demo-time">00:00 / 01:00</span></div>
+<label class="small-note" for="demo-progress">拖动进度，回到故事的任一刻</label><input id="demo-progress" type="range" min="0" max="60" step="0.1" value="0" aria-label="演示进度" aria-describedby="demo-seek-status" disabled><p id="demo-seek-status" class="small-note" aria-live="polite"></p>
+<div class="demo-controls"><button class="button primary" id="demo-play" type="button" disabled>播放有声演示 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button><button class="text-button" id="demo-replay" type="button" disabled>重新播放</button><button class="text-button" id="demo-silent" type="button" disabled>静音观看</button></div>
+<p id="demo-help" class="small-note">有声演示首次需要准备乐团音色。可以暂停，或选择静音观看。</p>
+</div>
+<noscript><p class="fallback">演示需要 JavaScript。你仍可浏览介绍，或进入完整写作空间。</p></noscript>
+<p id="demo-init-error" class="fallback" hidden>演示暂时无法启动，请刷新重试。产品介绍与写作空间入口仍可使用。</p>
+<div class="demo-chapters" aria-label="演示过程"><span data-demo-phase="begin">落笔</span><span data-demo-phase="flow">故事流动</span><span data-demo-phase="think">停笔构思</span><span data-demo-phase="resume">继续写下去</span></div>
+</div></section>
+
+<section id="rhythm" class="rhythm-section section wrap" aria-labelledby="rhythm-title">
+<div class="section-heading"><h2 id="rhythm-title">写作，<br>有自己的呼吸。</h2><p>音乐跟随一段时间里的写作节奏，<br>让连贯与留白，都有自己的位置。</p></div>
+<div class="rhythm-lab" id="rhythm-lab" data-phase="begin" data-running="false">
+<div class="rhythm-paper"><span class="small-note">一段故事，正在落笔</span><p><span id="rhythm-words">雨停之后，</span><i class="rhythm-caret" aria-hidden="true"></i></p><div class="rhythm-keystrokes" aria-hidden="true"></div></div>
+<div class="rhythm-response"><div class="breath-ensemble" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="rhythm-response-copy"><strong id="rhythm-response-title">先落下第一句</strong><p id="rhythm-response-copy">不必刻意快写。每一次落笔，慢慢积累成音乐的力量。</p></div></div>
+</div>
+<div class="rhythm-navigation"><div class="rhythm-state-controls" role="group" aria-label="查看写作节奏状态"><button type="button" data-rhythm-state="begin" aria-pressed="true">起笔</button><button type="button" data-rhythm-state="flow" aria-pressed="false">连贯书写</button><button type="button" data-rhythm-state="think" aria-pressed="false">停笔构思</button></div><button id="rhythm-toggle" class="text-button" type="button">播放节奏动画</button></div>
+</section>
+
+<section id="emotion" class="emotion-section section" aria-labelledby="emotion-title"><div class="wrap">
+<div class="section-heading"><h2 id="emotion-title">同一段音乐，<br>随故事的情绪流动。</h2><p>写下回望、悬念，或温暖的相逢。<br>同一段旋律，也会有不同的演奏节奏。</p></div>
+<div class="emotion-comparison"><div class="emotion-page"><span class="small-note">这段文字里的情绪</span><blockquote id="emotion-text">她推开门，旧屋依然安静。桌上放着那封泛黄的信，窗外的雨声，把许多年前的傍晚慢慢带了回来。</blockquote><div class="emotion-reading"><span id="emotion-label">回望</span><p id="emotion-interpretation">文字慢慢回望，音乐也留出更长的呼吸。</p></div></div>
+<div class="emotion-listener" id="emotion-listener" data-state="idle"><div class="emotion-controls" role="group" aria-label="选择不同情感的文字"><button type="button" data-emotion="reflection" aria-pressed="true">回望</button><button type="button" data-emotion="suspense" aria-pressed="false">悬念</button><button type="button" data-emotion="tenderness" aria-pressed="false">温暖</button></div>
+<h3 id="emotion-arrangement">步调舒缓，低弦与木管慢慢回应。</h3><p id="emotion-pace" class="small-note">舒缓 · 同一音乐片段</p>
+<div id="emotion-score" class="score-rail" role="img" aria-label="情绪试听的真实演奏谱面"><div class="score-rail-lines"></div><div class="score-note-layer"></div><div class="score-endpoint"><i></i><i></i></div></div>
+<div class="emotion-playback"><button id="emotion-play" type="button" class="button primary" disabled>试听回望</button><span id="emotion-status" role="status" aria-live="polite">选择一段文字，听它的节奏。</span></div></div></div>
+<p class="emotion-footnote small-note">本地预设示例 · 三段不同情感的文字，同一音乐片段的三种演绎设定。这里不分析或上传正文；真实段落分析需在应用中主动开启。</p>
+</div></section>
+
+<section id="records" class="records-section section wrap" aria-labelledby="records-title">
+<div class="section-heading"><h2 id="records-title">为故事，<br>选一张唱片。</h2><p>从原创序曲，到经典交响。<br>把选择音乐，也变成写作前的小小仪式。</p></div>
+<div class="record-browser"><div class="record-shelf" role="group" aria-label="浏览唱片"><button class="record-choice" type="button" data-record="mozart-symphony-41-k551" aria-pressed="true"><img src="/sheng-sui-bi-xing-demo/assets/showcase/rebuild/cover-jupiter.svg" alt="朱庇特交响曲原创排版封面" width="400" height="400" loading="lazy"><span>朱庇特</span></button><button class="record-choice" type="button" data-record="beethoven-symphony-3-op55" aria-pressed="false"><img src="/sheng-sui-bi-xing-demo/assets/showcase/rebuild/source-eroica.jpg" alt="英雄交响曲手稿扉页" width="400" height="400" loading="lazy"><span>英雄</span></button><button class="record-choice" type="button" data-record="beethoven-symphony-6-op68" aria-pressed="false"><img src="/sheng-sui-bi-xing-demo/assets/showcase/rebuild/source-pastoral.jpg" alt="北方风景·春" width="400" height="400" loading="lazy"><span>田园</span></button></div>
+<div class="record-info"><div class="record-categories" role="group" aria-label="唱片分类"><button type="button" data-library-kind="album" aria-pressed="true">专辑</button><button type="button" data-library-kind="single" aria-pressed="false">单曲</button></div><div class="record-detail-heading"><div class="record-title-row"><h3 id="record-title">小说写作交响序曲</h3><button id="record-expand" class="record-expand" type="button" aria-expanded="false" aria-controls="record-movements" aria-label="展开专辑乐章">›</button></div><span id="record-format" class="small-note"></span><span id="record-composer">本项目原创</span></div><p id="record-description">为写作设计的原创交响序曲，以呈示、展开与回归组织乐句。</p><ul id="record-movements" hidden><li>呈示、展开与回归</li></ul><label class="catalog-label" for="record-select">浏览现有曲库</label><select id="record-select"><option value="original-novel-suite-v1">小说写作交响序曲</option></select><p class="small-note">专辑可整张装载，也可展开后独立装载某个乐章。这里浏览曲目资料；实际装载与播放在写作空间中完成。</p></div></div>
+</section>
+
+<section id="orchestra" class="orchestra-section section" aria-labelledby="orchestra-title"><div class="wrap">
+<div class="section-heading"><h2 id="orchestra-title">文字背后，<br>是一支乐团。</h2><p>从弦乐的铺陈，到木管的回应。<br>在音乐厅里，认识每一种声音的角色。</p></div>
+<div class="showcase-hall"><div class="hall-topline"><span>与写作空间相同的乐团舞台</span><span id="hall-preview-status" role="status">选择一件乐器，认识它的声音</span></div>
+<div class="showcase-orchestra-render" role="group" aria-label="可探索的交响乐团舞台"><div class="hall-spotlights" aria-hidden="true"><i></i><i></i><i></i></div><div class="hall-floor" aria-hidden="true"></div><div id="showcase-orchestra-seats"></div><div class="showcase-conductor" aria-hidden="true"></div></div>
+<div class="voice-controls" role="group" aria-label="了解乐团声部"><button data-family="strings" aria-pressed="true" type="button">了解弦乐</button><button data-family="woodwinds" aria-pressed="false" type="button">了解木管</button><button data-family="brass" aria-pressed="false" type="button">了解铜管</button><button data-family="percussion" aria-pressed="false" type="button">了解打击乐</button><button data-family="color" aria-pressed="false" type="button">了解色彩声部</button></div>
+<div class="showcase-instrument-detail" id="showcase-instrument-detail"><div class="instrument-portrait"><img id="showcase-instrument-image" src="/sheng-sui-bi-xing-demo/assets/images/orchestra-icons/violin.png" alt="小提琴" width="200" height="200" loading="lazy"></div><div class="instrument-description"><span id="family-title">弦乐组</span><h3 id="showcase-instrument-name">第一小提琴</h3><p id="showcase-instrument-timbre">明亮 · 灵巧 · 歌唱感</p><p id="showcase-instrument-role">常带领旋律，也能编织细密的伴奏。</p><p id="showcase-instrument-together">与第二小提琴呼应，由中低弦乐托住和声。</p><div id="showcase-instrument-members" class="instrument-member-controls" role="group" aria-label="同声部乐器"></div><button type="button" class="text-button" id="showcase-instrument-listen" disabled>试听第一小提琴</button><details class="showcase-instrument-anatomy"><summary>它怎样发声</summary><dl id="showcase-instrument-parts"></dl></details><p id="showcase-instrument-note" class="small-note">第一、第二小提琴是同一种乐器，区别主要在声部与演奏分工。</p></div></div>
+<p class="small-note hall-footnote">点击席位查看介绍，再主动试听真实采样。每次只播放一个声音；完整合奏与演奏轨迹可进入写作空间体验。</p></div>
+</div></section>
+
+<section id="album" class="album-section section wrap" aria-labelledby="album-title"><div class="album-layout">
+<div class="album-copy"><h2 id="album-title">把这一刻，<br>留成一张专辑。</h2><p>留下写过的文字，也留下音乐如何陪你走过。<br>下次打开，让这一段创作再次演绎。</p><button id="album-toggle" class="text-button" type="button" aria-expanded="false" aria-controls="album-contents">展开专辑，看看里面 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button><p class="small-note">这是专辑内容示意；实际导出和导入在写作应用中完成。</p></div>
+<div class="album-object" id="album-object"><div class="album-cover"><span>声随笔行</span><h3>雨停之后</h3><div class="album-ring" aria-hidden="true"></div><p>一段文字，一次演绎。</p></div>
+<div id="album-contents" class="album-contents" hidden><div><span>正文</span><p>故事的标题与完整文字</p></div><div><span>曲目</span><p>这次创作选用的音乐</p></div><div><span>演绎轨迹</span><p>节奏、情绪与演奏参数，以及播放、暂停和进度跳转</p></div><p class="small-note">导出为 .sonata.txt → 在音乐厅导入 → 再次演绎。专辑保存演绎数据，不包含音频文件。自动演绎期间，手动进度条暂时锁定。</p></div></div>
+</div></section>
+
+<section id="start" class="closing section" aria-labelledby="closing-title"><div class="wrap"><h2 id="closing-title">下一段故事，<br>由你开始。</h2><p>留一张安静的纸，和一点音乐的陪伴。</p><a class="button primary app-entry" href="/sheng-sui-bi-xing-demo/app/?demo=1">进入写作空间 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a><p class="small-note">隔离体验 · 刷新重置 · 可主动导出保留</p>
+<div class="trust-details"><details><summary>文字会保存在哪里？</summary><p>普通写作模式将草稿保存在当前浏览器。本页入口进入隔离体验，内容仅留在内存中，刷新后重置；需要保留时请先导出。</p></details><details><summary>什么时候会上传正文？</summary><p>写作节奏默认在本机处理。只有你在完整应用中主动开启段落分析后，才可能发送最近约 80–800 字片段。展示页的情绪示例不调用远程分析。</p></details><details><summary>第一次如何听到音乐？</summary><p>进入写作空间后，选择唱片并主动落针。首次需要准备音色；展示页的播放不会自动延续到应用。你可以随时暂停或调节音量。</p></details></div>
+</div></section>
+</main><footer class="site-footer wrap"><a class="brand" href="/sheng-sui-bi-xing-demo/">声随笔行</a><span>每一段文字，都有自己的呼吸。</span><a href="#main">回到开场 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V5m-6 6 6-6 6 6"/></svg></a></footer>
+</body></html>

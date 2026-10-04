@@ -1,0 +1,372 @@
+[
+  {
+    "id": "violin-a3",
+    "rootMidi": 57,
+    "instrument": "violin1",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/violin-a3.wav"
+  },
+  {
+    "id": "violin-c4",
+    "rootMidi": 60,
+    "instrument": "violin1",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/violin-c4.wav"
+  },
+  {
+    "id": "violin-e4",
+    "rootMidi": 64,
+    "instrument": "violin1",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/violin-e4.wav"
+  },
+  {
+    "id": "violin-g4",
+    "rootMidi": 67,
+    "instrument": "violin1",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/violin-g4.wav"
+  },
+  {
+    "id": "violin-d5",
+    "rootMidi": 74,
+    "instrument": "violin1",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/violin-d5.wav"
+  },
+  {
+    "id": "violin-pizz-a3",
+    "rootMidi": 57,
+    "instrument": "violin2",
+    "articulation": "pizzicato",
+    "path": "./assets/audio/samples/violin-pizz-a3.wav"
+  },
+  {
+    "id": "violin-pizz-c4",
+    "rootMidi": 60,
+    "instrument": "violin2",
+    "articulation": "pizzicato",
+    "path": "./assets/audio/samples/violin-pizz-c4.wav"
+  },
+  {
+    "id": "violin-pizz-d5",
+    "rootMidi": 74,
+    "instrument": "violin2",
+    "articulation": "pizzicato",
+    "path": "./assets/audio/samples/violin-pizz-d5.wav"
+  },
+  {
+    "id": "violin-trem-g4",
+    "rootMidi": 67,
+    "instrument": "violin1",
+    "articulation": "tremolo",
+    "path": "./assets/audio/samples/violin-trem-g4.wav"
+  },
+  {
+    "id": "cello-d2",
+    "rootMidi": 38,
+    "instrument": "cello",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/cello-d2.wav"
+  },
+  {
+    "id": "cello-a2",
+    "rootMidi": 45,
+    "instrument": "cello",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/cello-a2.wav"
+  },
+  {
+    "id": "cello-c3",
+    "rootMidi": 48,
+    "instrument": "cello",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/cello-c3.wav"
+  },
+  {
+    "id": "cello-b3",
+    "rootMidi": 59,
+    "instrument": "cello",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/cello-b3.wav"
+  },
+  {
+    "id": "cello-d4",
+    "rootMidi": 62,
+    "instrument": "cello",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/cello-d4.wav"
+  },
+  {
+    "id": "cello-f4",
+    "rootMidi": 65,
+    "instrument": "cello",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/cello-f4.wav"
+  },
+  {
+    "id": "bass-a1",
+    "rootMidi": 33,
+    "instrument": "doubleBass",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/bass-a1.wav"
+  },
+  {
+    "id": "bass-cs2",
+    "rootMidi": 37,
+    "instrument": "doubleBass",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/bass-cs2.wav"
+  },
+  {
+    "id": "viola-a3",
+    "rootMidi": 57,
+    "instrument": "viola",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/viola-a3.wav"
+  },
+  {
+    "id": "viola-c4",
+    "rootMidi": 60,
+    "instrument": "viola",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/viola-c4.wav"
+  },
+  {
+    "id": "viola-e4",
+    "rootMidi": 64,
+    "instrument": "viola",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/viola-e4.wav"
+  },
+  {
+    "id": "flute-c4",
+    "rootMidi": 60,
+    "instrument": "flute",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/flute-c4.wav"
+  },
+  {
+    "id": "flute-e4",
+    "rootMidi": 64,
+    "instrument": "flute",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/flute-e4.wav"
+  },
+  {
+    "id": "flute-a4",
+    "rootMidi": 69,
+    "instrument": "flute",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/flute-a4.wav"
+  },
+  {
+    "id": "flute-c5",
+    "rootMidi": 72,
+    "instrument": "flute",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/flute-c5.wav"
+  },
+  {
+    "id": "flute-e5",
+    "rootMidi": 76,
+    "instrument": "flute",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/flute-e5.wav"
+  },
+  {
+    "id": "clarinet-as3",
+    "rootMidi": 58,
+    "instrument": "clarinet",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/clarinet-as3.wav"
+  },
+  {
+    "id": "clarinet-d4",
+    "rootMidi": 62,
+    "instrument": "clarinet",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/clarinet-d4.wav"
+  },
+  {
+    "id": "clarinet-d5",
+    "rootMidi": 74,
+    "instrument": "clarinet",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/clarinet-d5.wav"
+  },
+  {
+    "id": "oboe-d4",
+    "rootMidi": 62,
+    "instrument": "oboe",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/oboe-d4.wav"
+  },
+  {
+    "id": "oboe-f4",
+    "rootMidi": 65,
+    "instrument": "oboe",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/oboe-f4.wav"
+  },
+  {
+    "id": "oboe-as4",
+    "rootMidi": 70,
+    "instrument": "oboe",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/oboe-as4.wav"
+  },
+  {
+    "id": "bassoon-c2",
+    "rootMidi": 36,
+    "instrument": "bassoon",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/bassoon-c2.wav"
+  },
+  {
+    "id": "bassoon-g2",
+    "rootMidi": 43,
+    "instrument": "bassoon",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/bassoon-g2.wav"
+  },
+  {
+    "id": "bassoon-c3",
+    "rootMidi": 48,
+    "instrument": "bassoon",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/bassoon-c3.wav"
+  },
+  {
+    "id": "horn-c3",
+    "rootMidi": 48,
+    "instrument": "horn",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/horn-c3.wav"
+  },
+  {
+    "id": "horn-d4",
+    "rootMidi": 62,
+    "instrument": "horn",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/horn-d4.wav"
+  },
+  {
+    "id": "trumpet-d4",
+    "rootMidi": 62,
+    "instrument": "trumpet",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/trumpet-d4.wav"
+  },
+  {
+    "id": "trumpet-f4",
+    "rootMidi": 65,
+    "instrument": "trumpet",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/trumpet-f4.wav"
+  },
+  {
+    "id": "trumpet-a4",
+    "rootMidi": 69,
+    "instrument": "trumpet",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/trumpet-a4.wav"
+  },
+  {
+    "id": "trombone-c3",
+    "rootMidi": 48,
+    "instrument": "trombone",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/trombone-c3.wav"
+  },
+  {
+    "id": "trombone-cs3",
+    "rootMidi": 49,
+    "instrument": "trombone",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/trombone-cs3.wav"
+  },
+  {
+    "id": "tuba-d2",
+    "rootMidi": 38,
+    "instrument": "tuba",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/tuba-d2.wav"
+  },
+  {
+    "id": "tuba-f2",
+    "rootMidi": 41,
+    "instrument": "tuba",
+    "articulation": "sustain",
+    "path": "./assets/audio/samples/tuba-f2.wav"
+  },
+  {
+    "id": "timpani-hit",
+    "rootMidi": 38,
+    "instrument": "timpani",
+    "articulation": "strike",
+    "path": "./assets/audio/samples/timpani-hit.wav"
+  },
+  {
+    "id": "bassdrum-soft",
+    "rootMidi": 36,
+    "instrument": "bassDrum",
+    "articulation": "strike",
+    "velocityCenter": 0.25,
+    "path": "./assets/audio/samples/bassdrum-soft.wav"
+  },
+  {
+    "id": "bassdrum-hit",
+    "rootMidi": 36,
+    "instrument": "bassDrum",
+    "articulation": "strike",
+    "velocityCenter": 0.82,
+    "path": "./assets/audio/samples/bassdrum-hit.wav"
+  },
+  {
+    "id": "cymbal-soft",
+    "rootMidi": 49,
+    "instrument": "cymbal",
+    "articulation": "strike",
+    "velocityCenter": 0.28,
+    "path": "./assets/audio/samples/cymbal-soft.wav"
+  },
+  {
+    "id": "cymbal-crash",
+    "rootMidi": 49,
+    "instrument": "cymbal",
+    "articulation": "strike",
+    "velocityCenter": 0.86,
+    "path": "./assets/audio/samples/cymbal-crash.wav"
+  },
+  {
+    "id": "tamtam-soft",
+    "rootMidi": 57,
+    "instrument": "tamTam",
+    "articulation": "strike",
+    "velocityCenter": 0.25,
+    "path": "./assets/audio/samples/tamtam-soft.wav"
+  },
+  {
+    "id": "tamtam-hit",
+    "rootMidi": 57,
+    "instrument": "tamTam",
+    "articulation": "strike",
+    "velocityCenter": 0.88,
+    "path": "./assets/audio/samples/tamtam-hit.wav"
+  },
+  {
+    "id": "harp-a4",
+    "rootMidi": 69,
+    "instrument": "harp",
+    "articulation": "pluck",
+    "path": "./assets/audio/samples/harp-a4.wav"
+  },
+  {
+    "id": "harp-c5",
+    "rootMidi": 72,
+    "instrument": "harp",
+    "articulation": "pluck",
+    "path": "./assets/audio/samples/harp-c5.wav"
+  }
+]

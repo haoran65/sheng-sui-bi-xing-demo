@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<rect width="800" height="800" fill="#e9e3d3"/>
+<path d="M70 98H730M70 702H730" stroke="#a39672"/>
+<circle cx="620" cy="450" r="218" fill="none" stroke="#b7aa86" stroke-width="1"/>
+<circle cx="620" cy="450" r="172" fill="none" stroke="#b7aa86" stroke-width="1"/>
+<circle cx="620" cy="450" r="122" fill="none" stroke="#b7aa86" stroke-width="1"/>
+<g fill="#343a32" font-family="Georgia, 'Noto Serif SC', 'Microsoft YaHei', serif">
+<text x="72" y="78" font-size="18" letter-spacing="4">声随笔行 · 完整交响曲</text>
+<text x="72" y="208" font-size="26" letter-spacing="5">W. A. MOZART</text>
+<text x="67" y="326" font-size="84">Jupiter</text>
+<text x="74" y="403" font-size="44">朱庇特</text>
+<text x="74" y="463" font-size="24">莫扎特 · 第41交响曲</text>
+<text x="74" y="630" font-size="22" letter-spacing="3">C MAJOR / K.551</text>
+<text x="74" y="672" font-size="16" letter-spacing="3">1788 · FOUR MOVEMENTS</text>
+</g></svg>
